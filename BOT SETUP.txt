@@ -1,0 +1,51 @@
+NOTE
+“Render is a free deployment platform, and this deployment method was working well when I made this video. However, please note that it may not work if Render stops supporting free deployments. I am not responsible if it stops working.”
+
+
+WATCH CAREFULLY 
+
+
+
+THIS FREE METHOD AND BOT MAY NOT BE FASTER 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+step 1: Create a new ac on render 
+>>https://render.com
+step 2: Create a new Database
+>>https://dashboard.render.com/new/database
+step 3: Create a new Web Service
+>>https://dashboard.render.com/create?type=web
+step 4: selected Advanced settings 
+step 5: add image url 
+>>quay.io/souravkl11/raganork
+step 6: add Key Value
+
+DATABASE_URL
+••••••••••••
+your database url 
+
+HANDLERS
+••••••••••••
+.,/
+
+MODE
+••••••••••••
+private
+
+SESSION
+••••••••••••
+your session id
+
+SUDO
+••••••••••••
+your number
+
+PORT
+••••••••••••
+8080
+
+
+step 7: create an ac on Cron Jobs and create a monitor 
+(otherwise your bot will die)
