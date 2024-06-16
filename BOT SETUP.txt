@@ -49,3 +49,17 @@ PORT
 
 step 7: create an ac on Cron Jobs and create a monitor 
 (otherwise your bot will die)
+
+
+
+FOR HERMIT MD
+DOCKERFILE
+https://quay.io/repository/hermit/hermit-ser?tab=tags&tag=latest
+
+variables
+ PORT = 8080
+ SESSION_ID = your id
+  SUDO = null
+  PREFIX = .
+  MODE = private
+  LOG_MSG = true
