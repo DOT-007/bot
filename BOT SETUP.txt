@@ -54,7 +54,7 @@ step 7: create an ac on Cron Jobs and create a monitor
 
 FOR HERMIT MD
 DOCKERFILE
-https://quay.io/repository/hermit/hermit-ser?tab=tags&tag=latest
+FROM quay.io/hermit/hermit-ser:latest@sha256:18f3b184badd779ccd8aa27d2dbf07867c1e4e7452f0a5c02d8fc473ac206871
 
 variables
  PORT = 8080
